@@ -180,7 +180,7 @@ h1{
 
 
 .box{
-	background:silver;
+	background:#f4f3f4;
 	border:solid black 1px;
 	width:45%;
 	margin:25px 0;
@@ -199,3 +199,16 @@ h1{
 	margin:25px 0;
 	border-radius: 5px;
 }
+
+.bottom-container{
+	margin: 40px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.some-facts{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
