@@ -75,6 +75,11 @@ h1, h2, h3, h4, h5 {
 nav{
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;	
+}
+
+nav div{
+	width:100%;
 	
 }
 
@@ -129,6 +134,7 @@ h1{
 
 .features, .about{
 	width:50%;
+	padding-bottom:15px;
 	justify-content: space-between;
 }
 
@@ -210,5 +216,63 @@ h1{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+
+@media only screen and (max-width:800px){
+.serv-mid{
+	display:flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+}
+.box{
+	display:flex;
+	width:auto;
+	height:auto;
+	flex-wrap:wrap;
+	margin:15px 0;
+	padding:0;
+	text-align: center;
+	justify-content: center;
+}
+.learn-button{
+	width:auto;
+}
+
+.services-header-img{
+	display:none;
+}
+.wrapper{
+	padding:0;
+	margin:15px 0;
+}
+nav{
+	display:flex;
+	flex-direction: column-reverse;
+	align-content: center;
+	justify-content: center;
+}
+a{
+	display: flex;
+	justify-content: center;
+	padding:15px;
+	border: lightgrey 1px solid;
+	width: 100%;
+}
+#services-section{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+h1{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.services-info-img{
+	display:none;
+}
 }
 
